@@ -2,12 +2,12 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   body {
+    background-color: black;
     margin: 0;
   }
 `;
 
 export const Main = styled.div` 
-  background-color: black;
   display: flex;
   flex-direction: column; 
   font-family: monospace;
