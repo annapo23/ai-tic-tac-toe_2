@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack -p --watch | live-server"
   },
   "author": "",
   "license": "ISC",
